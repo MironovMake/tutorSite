@@ -1,0 +1,35 @@
+@import "../genegalStuff";
+@import "../nav";
+
+h2 {
+  padding-left: 15%;
+  position: relative;
+  top: 5%;
+}
+
+section {
+  height: 80vh;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.grid-container-schedule {
+  display: grid;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  grid-template-columns: 75px 490px 40px;
+}
+img {
+  position: relative;
+  top: 55%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: 60vh;
+  width: auto;
+}
+
+@import "../mobile";

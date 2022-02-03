@@ -1,0 +1,20 @@
+@import "./styles/genegalStuff";
+@import "./styles/nav";
+
+h2 {
+  padding-left: 15%;
+  position: relative;
+  top: 5%;
+}
+
+section {
+  height: 80vh;
+  background-color: rgba(177, 177, 177, 0.287);
+}
+
+@import "./styles/mobile";
+.temporary {
+  text-align: center;
+  padding-top: 10%;
+  font-size: 66px;
+}
