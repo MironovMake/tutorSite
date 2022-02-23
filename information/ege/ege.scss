@@ -6,4 +6,7 @@
   font-size: 3rem;
   color: rgb(255, 255, 255);
 }
-@include flex(40rem, 30rem);
+@include flex(30rem, 20rem);
+.box {
+  margin: 4rem;
+}
