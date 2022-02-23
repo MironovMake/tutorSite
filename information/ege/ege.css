@@ -1,0 +1,35 @@
+.titleFurmuls {
+  position: relative;
+  bottom: 17rem;
+  left: 7rem;
+  font-size: 3rem;
+  color: white;
+}
+
+.container {
+  padding-top: 2%;
+  height: 80vh;
+  background: white;
+  width: 80vw;
+  position: relative;
+  left: 10vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.box {
+  width: 40rem;
+  height: 30rem;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*# sourceMappingURL=ege.css.map */
