@@ -1,1 +1,6 @@
 @import "../styles/container";
+
+@include flex(50rem, 50rem);
+img {
+  width: 50rem;
+}

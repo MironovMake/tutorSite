@@ -1,11 +1,6 @@
 @import "./styles/genegalStuff";
 @import "./styles/nav";
-
-h2 {
-  padding-left: 15%;
-  position: relative;
-  top: 5%;
-}
+@import "./styles/container";
 
 section {
   height: 80vh;
@@ -15,6 +10,39 @@ section {
 @import "./styles/mobile";
 .temporary {
   text-align: center;
-  padding-top: 10%;
-  font-size: 66px;
+  font-size: 60px;
+  position: relative;
+  //top: 55%;
+  color: white;
+}
+
+@include flex(50rem, 65em);
+
+.physic {
+  background-image: url(../img/me.jpg);
+  background-size: 150%;
+  background-position: center;
+  background-position: 50% 0%;
+}
+.information {
+  background-image: url(../img/olga.jpg);
+  background-size: cover;
+  //background-size: 100%;
+  //!background-position: 50% 100%;
+}
+
+.description {
+  background-color: rgba(41, 41, 41, 0.534);
+  width: 50rem;
+  height: 25%;
+  position: relative;
+  //transform: translateY(-50%);
+  bottom: -75%;
+  //padding-top: 5%;
+  p {
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 2rem;
+    color: rgb(255, 254, 254);
+  }
 }

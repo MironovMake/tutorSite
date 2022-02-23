@@ -19,9 +19,13 @@
 }
 
 .box {
-  width: 30rem;
-  height: 30rem;
+  width: 50rem;
+  height: 50rem;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {
+  width: 50rem;
 }
 /*# sourceMappingURL=information.css.map */

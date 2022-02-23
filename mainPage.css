@@ -14,9 +14,11 @@ body {
 }
 
 header {
+  width: 80%;
+  margin-left: 10%;
   height: 10vh;
-  background-image: -webkit-gradient(linear, right top, left bottom, from(#800000), to(#ff6600));
-  background-image: linear-gradient(to bottom left, #800000, #ff6600);
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#005180), to(#979c85));
+  background-image: linear-gradient(to bottom left, #005180, #979c85);
   color: #fff9f9;
   position: -webkit-sticky;
   position: sticky;
@@ -85,8 +87,8 @@ nav ul {
   text-align: center;
   text-decoration: none;
   margin: auto;
-  background-image: -webkit-gradient(linear, right top, left bottom, from(#800000), to(#ff6600));
-  background-image: linear-gradient(to bottom left, #800000, #ff6600);
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#005180), to(#979c85));
+  background-image: linear-gradient(to bottom left, #005180, #979c85);
   margin-top: 20px;
   color: whites;
   border: 3px solid;
@@ -99,18 +101,12 @@ nav ul {
 }
 
 footer {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#800000), to(#ff6600));
-  background-image: linear-gradient(to bottom right, #800000, #ff6600);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#005180), to(#979c85));
+  background-image: linear-gradient(to bottom right, #005180, #979c85);
   height: 10vh;
   text-align: center;
   font-size: 25px;
   color: #adadad;
-}
-
-h2 {
-  padding-left: 15%;
-  position: relative;
-  top: 5%;
 }
 
 section {
@@ -156,7 +152,62 @@ section {
 
 .temporary {
   text-align: center;
-  padding-top: 10%;
-  font-size: 66px;
+  font-size: 60px;
+  position: relative;
+  color: white;
+}
+
+.container {
+  padding-top: 2%;
+  height: 80vh;
+  background: white;
+  width: 80vw;
+  position: relative;
+  left: 10vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.box {
+  width: 50rem;
+  height: 65em;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.physic {
+  background-image: url(../img/me.jpg);
+  background-size: 150%;
+  background-position: center;
+  background-position: 50% 0%;
+}
+
+.information {
+  background-image: url(../img/olga.jpg);
+  background-size: cover;
+}
+
+.description {
+  background-color: rgba(41, 41, 41, 0.534);
+  width: 50rem;
+  height: 25%;
+  position: relative;
+  bottom: -75%;
+}
+
+.description p {
+  padding-left: 3%;
+  padding-right: 3%;
+  font-size: 2rem;
+  color: #fffefe;
 }
 /*# sourceMappingURL=mainPage.css.map */

@@ -1,3 +1,11 @@
+.titleFurmuls {
+  position: relative;
+  bottom: 17rem;
+  left: 7rem;
+  font-size: 3rem;
+  color: white;
+}
+
 .container {
   padding-top: 2%;
   height: 80vh;
@@ -23,13 +31,5 @@
   height: 30rem;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.titleFurmuls {
-  position: relative;
-  bottom: 17rem;
-  left: 7rem;
-  font-size: 3rem;
-  color: white;
 }
 /*# sourceMappingURL=physic.css.map */

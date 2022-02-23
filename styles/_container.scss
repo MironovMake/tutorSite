@@ -1,17 +1,19 @@
-.container {
-  padding-top: 2%;
-  height: 80vh;
-  background: rgb(255, 255, 255);
-  width: 80vw;
-  position: relative;
-  left: 10vw;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-around;
-}
-.box {
-  width: 30rem;
-  height: 30rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+@mixin flex($widthBlock, $heightBlock) {
+  .container {
+    padding-top: 2%;
+    height: 80vh;
+    background: rgb(255, 255, 255);
+    width: 80vw;
+    position: relative;
+    left: 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .box {
+    width: $widthBlock;
+    height: $heightBlock;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
 }
