@@ -152,8 +152,8 @@ footer {
   border-radius: 20px;
   text-align: center;
   font-size: 3rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(transparent)), url("contact.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.4), transparent), url("contact.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(transparent)), url("mEfake.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), transparent), url("mEfake.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -229,6 +229,13 @@ form {
     left: 0vw;
     width: 100%;
     height: 120rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .submit {
+    position: relative;
+    bottom: -10%;
   }
 }
 /*# sourceMappingURL=aboutUs.css.map */

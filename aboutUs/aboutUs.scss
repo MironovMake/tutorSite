@@ -52,7 +52,7 @@
   text-align: center;
   font-size: 3rem;
   background: linear-gradient(rgba(0, 0, 0, 0.4), transparent),
-    url("contact.jpg");
+    url("mEfake.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -73,3 +73,9 @@ form {
   background-size: cover;
 }
 @import "../styles/mobile";
+@media only screen and (max-width: 800px) {
+  .submit {
+    position: relative;
+    bottom: -10%;
+  }
+}

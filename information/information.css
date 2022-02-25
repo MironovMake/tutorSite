@@ -47,4 +47,11 @@ img {
     height: 120rem;
   }
 }
+
+@media only screen and (max-width: 800px) {
+  .box {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+}
 /*# sourceMappingURL=information.css.map */
