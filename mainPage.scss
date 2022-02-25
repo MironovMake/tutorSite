@@ -3,16 +3,13 @@
 @import "./styles/container";
 
 section {
-  height: 80vh;
   background-color: rgba(177, 177, 177, 0.287);
 }
 
-@import "./styles/mobile";
 .temporary {
   text-align: center;
   font-size: 60px;
   position: relative;
-  //top: 55%;
   color: white;
 }
 
@@ -27,18 +24,15 @@ section {
 .information {
   background-image: url(../img/olga.jpg);
   background-size: cover;
-  //background-size: 100%;
-  //!background-position: 50% 100%;
 }
 
 .description {
   background-color: rgba(41, 41, 41, 0.534);
-  width: 50rem;
-  height: 25%;
+  width: 100%;
+
   position: relative;
-  //transform: translateY(-50%);
-  bottom: -75%;
-  //padding-top: 5%;
+  transform: translateY(-100%);
+  bottom: -100%;
   p {
     padding-left: 3%;
     padding-right: 3%;
@@ -46,3 +40,4 @@ section {
     color: rgb(255, 254, 254);
   }
 }
+@import "./styles/mobile";

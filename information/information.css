@@ -26,6 +26,25 @@
 }
 
 img {
-  width: 50rem;
+  width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+  /*   For mobile:*/
+  header {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .box {
+    width: 100%;
+    height: 50rem;
+    margin-top: 5%;
+  }
+  .container {
+    position: relative;
+    left: 0vw;
+    width: 100%;
+    height: 120rem;
+  }
 }
 /*# sourceMappingURL=information.css.map */

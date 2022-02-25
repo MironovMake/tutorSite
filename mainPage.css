@@ -71,7 +71,7 @@ nav ul {
 .fa {
   margin-left: 5%;
   padding: 15px;
-  font-size: 30px;
+  font-size: 3rem;
   width: 7rem;
   text-align: center;
   text-decoration: none;
@@ -97,44 +97,7 @@ footer {
 }
 
 section {
-  height: 80vh;
   background-color: rgba(177, 177, 177, 0.287);
-}
-
-@media only screen and (max-width: 800px) {
-  /*   For mobile:*/
-  .grid-container-schedule {
-    -ms-grid-columns: 20% 75% auto;
-        grid-template-columns: 20% 75% auto;
-  }
-  .content {
-    height: auto;
-  }
-  .home-page {
-    display: none;
-  }
-  .cards {
-    padding: 13px;
-    margin: 0;
-  }
-  img {
-    width: 98%;
-    height: auto;
-    margin: 0;
-    padding: 0;
-  }
-  .cards-2 {
-    max-width: 500;
-    margin: auto auto;
-    display: -ms-grid;
-    display: grid;
-    grid-gap: 2rem;
-    -ms-grid-columns: (minmax(400px, 1fr))[auto-fit];
-        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  }
-  footer {
-    height: 35vh;
-  }
 }
 
 .temporary {
@@ -185,10 +148,11 @@ section {
 
 .description {
   background-color: rgba(41, 41, 41, 0.534);
-  width: 50rem;
-  height: 25%;
+  width: 100%;
   position: relative;
-  bottom: -75%;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  bottom: -100%;
 }
 
 .description p {
@@ -196,5 +160,24 @@ section {
   padding-right: 3%;
   font-size: 2rem;
   color: #fffefe;
+}
+
+@media only screen and (max-width: 800px) {
+  /*   For mobile:*/
+  header {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .box {
+    width: 100%;
+    height: 50rem;
+    margin-top: 5%;
+  }
+  .container {
+    position: relative;
+    left: 0vw;
+    width: 100%;
+    height: 120rem;
+  }
 }
 /*# sourceMappingURL=mainPage.css.map */
