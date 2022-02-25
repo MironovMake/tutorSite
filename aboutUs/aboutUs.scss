@@ -37,12 +37,23 @@
   text-align: center;
   font-size: 3rem;
   background: linear-gradient(rgba(0, 0, 0, 0.4), transparent),
-    url("olgaRed.jpg");
+    url("img/olgaRed.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
 }
+.olga:hover {
+  border-radius: 20px;
+  text-align: center;
+  font-size: 3rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), transparent),
+    url("img/olgaRedsmile.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .olgaProfi {
   position: relative;
   bottom: -10%;
@@ -52,12 +63,21 @@
   text-align: center;
   font-size: 3rem;
   background: linear-gradient(rgba(0, 0, 0, 0.4), transparent),
-    url("mEfake.jpg");
+    url("img/mEfake.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.alex:hover {
+  border-radius: 20px;
+  text-align: center;
+  font-size: 3rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), transparent),
+    url("img/mEfakesmile.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 @import "../styles/container";
 @include flex(20vw, 50vh);
 @include flexColum();
@@ -67,7 +87,7 @@ form {
   color: white;
   border-radius: 20px;
   font-size: 3rem;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url(pys.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url(img/pys.png);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;

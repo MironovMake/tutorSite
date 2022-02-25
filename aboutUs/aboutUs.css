@@ -133,14 +133,25 @@ footer {
   border-radius: 20px;
   text-align: center;
   font-size: 3rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(transparent)), url("olgaRed.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.4), transparent), url("olgaRed.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(transparent)), url("img/olgaRed.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), transparent), url("img/olgaRed.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.olga:hover {
+  border-radius: 20px;
+  text-align: center;
+  font-size: 3rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(transparent)), url("img/olgaRedsmile.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), transparent), url("img/olgaRedsmile.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .olgaProfi {
@@ -152,8 +163,19 @@ footer {
   border-radius: 20px;
   text-align: center;
   font-size: 3rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(transparent)), url("mEfake.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.4), transparent), url("mEfake.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(transparent)), url("img/mEfake.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), transparent), url("img/mEfake.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.alex:hover {
+  border-radius: 20px;
+  text-align: center;
+  font-size: 3rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(transparent)), url("img/mEfakesmile.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), transparent), url("img/mEfakesmile.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -206,8 +228,8 @@ form {
   color: white;
   border-radius: 20px;
   font-size: 3rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(transparent)), url(pys.png);
-  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url(pys.png);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(transparent)), url(img/pys.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url(img/pys.png);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
