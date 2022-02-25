@@ -96,52 +96,59 @@ footer {
   color: #adadad;
 }
 
-section {
-  height: 80vh;
-  background-color: rgba(177, 177, 177, 0.287);
+.box {
+  margin-top: 5%;
 }
 
-@media only screen and (max-width: 800px) {
-  /*   For mobile:*/
-  .grid-container-schedule {
-    -ms-grid-columns: 20% 75% auto;
-        grid-template-columns: 20% 75% auto;
-  }
-  .content {
-    height: auto;
-  }
-  .home-page {
-    display: none;
-  }
-  .cards {
-    padding: 13px;
-    margin: 0;
-  }
-  img {
-    width: 98%;
-    height: auto;
-    margin: 0;
-    padding: 0;
-  }
-  .cards-2 {
-    max-width: 500;
-    margin: auto auto;
-    display: -ms-grid;
-    display: grid;
-    grid-gap: 2rem;
-    -ms-grid-columns: (minmax(400px, 1fr))[auto-fit];
-        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  }
-  footer {
-    height: 35vh;
-  }
-}
-
-.temporary {
-  text-align: center;
-  font-size: 60px;
+.submit {
   position: relative;
-  color: white;
+  bottom: -5%;
+  width: 100%;
+  padding: 3rem;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-size: 3rem;
+}
+
+.field {
+  background-color: #ffffff;
+  width: 80%;
+  font-size: 2rem;
+}
+
+.message,
+.email-form {
+  padding-left: 15%;
+  margin-bottom: 5%;
+}
+
+.regularText {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 5%;
+  padding-top: 5%;
+}
+
+.olga {
+  border-radius: 20px;
+  text-align: center;
+  font-size: 3rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(transparent)), url("olgaRed.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), transparent), url("olgaRed.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.alex {
+  border-radius: 20px;
+  text-align: center;
+  font-size: 3rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(transparent)), url("contact.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), transparent), url("contact.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container {
@@ -165,36 +172,36 @@ section {
 }
 
 .box {
-  width: 50rem;
-  height: 65em;
+  width: 20vw;
+  height: 50vh;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.physic {
-  background-image: url(../img/me.jpg);
-  background-size: 150%;
-  background-position: center;
-  background-position: 50% 0%;
+.containerColum {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
-.information {
-  background-image: url(../img/olga.jpg);
+form {
+  width: 50%;
+  color: white;
+  border-radius: 20px;
+  font-size: 3rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(transparent)), url(pys.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url(pys.png);
+  background-position: top;
+  background-repeat: no-repeat;
   background-size: cover;
 }
-
-.description {
-  background-color: rgba(41, 41, 41, 0.534);
-  width: 50rem;
-  height: 25%;
-  position: relative;
-  bottom: -75%;
-}
-
-.description p {
-  padding-left: 3%;
-  padding-right: 3%;
-  font-size: 2rem;
-  color: #fffefe;
-}
-/*# sourceMappingURL=mainPage.css.map */
+/*# sourceMappingURL=aboutUs.css.map */

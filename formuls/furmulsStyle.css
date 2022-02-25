@@ -68,28 +68,15 @@ nav ul {
   list-style-type: none;
 }
 
-#logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: 2;
-      -ms-flex: 2 1 40rem;
-          flex: 2 1 40rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 .fa {
+  margin-left: 5%;
   padding: 15px;
   font-size: 30px;
   width: 7rem;
   text-align: center;
   text-decoration: none;
-  margin: auto;
   background-image: -webkit-gradient(linear, right top, left bottom, from(#005180), to(#979c85));
   background-image: linear-gradient(to bottom left, #005180, #979c85);
-  margin-top: 20px;
   color: whites;
   border: 3px solid;
   border-color: white;

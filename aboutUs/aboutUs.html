@@ -4,30 +4,123 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="\mainPage.css" />
-
-    <title>Новости</title>
+    <link rel="stylesheet" type="text/css" href="aboutUs.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>контакты</title>
   </head>
   <header class="main-head">
     <nav>
-      <h1 id="logo">Новости</h1>
+      <h1 id="logo">контакты</h1>
       <ul>
         <li>
-          <a href="../formuls/formuls.html">Математика</a>
+          <a href="../index.html">Главная</a>
         </li>
         <li>
-          <a href="../formuls/formuls.html">Физика</a>
+          <a href="../physicist/physic.html">Физика</a>
         </li>
         <li>
-          <a href="../formuls/formuls.html">Информатика</a>
-        </li>
-        <li>
-          <a href="../aboutMe/index.html">О нас</a>
+          <a href="../information/information.html">Информатика</a>
         </li>
       </ul>
     </nav>
   </header>
   <body>
-    <section></section>
+    <section class="container">
+      <div class="olga box containerColum">
+        <a
+          class="fa fa-vk boxColum"
+          target="_blank"
+          href="https://vk.com/mag_aleksandr"
+        ></a>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/miralexgenn"
+          class="fa fa-linkedin boxColum"
+        ></a>
+
+        <a
+          target="_blank"
+          href="https://www.instagram.com/mag._aleks?r=nametag"
+          class="fa fa-instagram boxColum"
+        ></a>
+
+        <a
+          target="_blank"
+          href="https://join.skype.com/invite/h7KmJTzLLjtA"
+          class="fa fa-skype boxColum"
+        ></a>
+        <div id="logo" class="boxColum profi">
+          <div class="profi-widget" data-id="48f5cb45567133ac5dc4f9b8c82c73f0">
+            Powered by
+            <a target="_blank" href="https://profi.ru/profile/MironovAG3"
+              >Profi.ru</a
+            >
+          </div>
+          <script src="https://profi.ru/jqs/widget/widget.js"></script>
+        </div>
+      </div>
+
+      <div class="alex box containerColum">
+        <a
+          class="fa fa-vk boxColum"
+          target="_blank"
+          href="https://vk.com/mag_aleksandr"
+        ></a>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/miralexgenn"
+          class="fa fa-linkedin boxColum"
+        ></a>
+
+        <a
+          target="_blank"
+          href="https://www.instagram.com/mag._aleks?r=nametag"
+          class="fa fa-instagram boxColum"
+        ></a>
+
+        <a
+          target="_blank"
+          href="https://join.skype.com/invite/h7KmJTzLLjtA"
+          class="fa fa-skype boxColum"
+        ></a>
+        <div id="logo" class="boxColum profi">
+          <div class="profi-widget" data-id="48f5cb45567133ac5dc4f9b8c82c73f0">
+            Powered by
+            <a target="_blank" href="https://profi.ru/profile/MironovAG3"
+              >Profi.ru</a
+            >
+          </div>
+          <script src="https://profi.ru/jqs/widget/widget.js"></script>
+        </div>
+      </div>
+
+      <form class="box" action="https://formspree.io/f/xpzbdezb" method="POST">
+        <div>
+          <p class="regularText">
+            Вы можете связаться с нами в соцсетях или напишите сообщение здесь
+          </p>
+        </div>
+        <div class="email-form" value="email">
+          Email:
+          <br />
+          <input
+            class="field ema"
+            type="email"
+            name="email"
+            placeholder="email"
+          />
+        </div>
+        <div class="message">
+          сообщение:
+          <br />
+          <textarea class="field" name="message" rows="8" cols="36"></textarea>
+        </div>
+        <button class="submit" type="submit">Отправить</button>
+      </form>
+    </section>
   </body>
+  <footer></footer>
 </html>

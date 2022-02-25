@@ -38,21 +38,15 @@ nav ul {
   align-items: center;
   list-style-type: none;
 }
-#logo {
-  display: flex;
-  flex: 2 1 40rem;
-  align-items: center;
-}
 
 .fa {
+  margin-left: 5%;
   padding: 15px;
   font-size: 30px;
   width: 7rem;
   text-align: center;
   text-decoration: none;
-  margin: auto;
   background-image: linear-gradient(to bottom left, $two, $one);
-  margin-top: 20px;
   color: whites;
   border: 3px solid;
   border-color: white;
