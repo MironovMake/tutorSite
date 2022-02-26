@@ -1,0 +1,6 @@
+@import "../../../styles/container";
+
+@include flex(40rem, 30rem);
+.box {
+  margin-bottom: 5%;
+}

@@ -1,7 +1,6 @@
 @mixin flex($widthBlock, $heightBlock) {
   .container {
     padding-top: 2%;
-    height: 80vh;
     background: rgb(255, 255, 255);
     width: 80vw;
     position: relative;
