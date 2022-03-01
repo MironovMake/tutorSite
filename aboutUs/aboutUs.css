@@ -68,7 +68,7 @@ nav ul {
   list-style-type: none;
 }
 
-.fa {
+.fab {
   margin-left: 5%;
   padding: 15px;
   font-size: 3rem;
@@ -217,7 +217,7 @@ footer {
 
 .olgaProfi {
   position: relative;
-  bottom: -10%;
+  bottom: -5%;
 }
 
 .alex {
