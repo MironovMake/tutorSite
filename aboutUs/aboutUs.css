@@ -17,13 +17,15 @@ header {
   width: 80%;
   margin-left: 10%;
   height: 10vh;
-  background-image: -webkit-gradient(linear, right top, left bottom, from(#005180), to(#979c85));
-  background-image: linear-gradient(to bottom left, #005180, #979c85);
+  background: #00b1b3;
+  background: linear-gradient(202deg, rgba(0, 177, 179, 0.541054) 0%, #097970 39%, #00d4ff 100%);
   color: #fff9f9;
   position: -webkit-sticky;
   position: sticky;
   top: 0px;
   z-index: 6;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 header h1 {

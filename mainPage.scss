@@ -5,12 +5,19 @@
 section {
   background-color: rgba(177, 177, 177, 0.287);
 }
-
+.welcome {
+  padding: 1%;
+  font-size: 2rem;
+  margin-left: 10%;
+  width: 70%;
+}
 .temporary {
   text-align: center;
   font-size: 60px;
   position: relative;
-  color: white;
+  color: rgb(59, 59, 59);
+  padding-top: 10%;
+  padding-bottom: 5%;
 }
 
 @include flex(50rem, 65em);
@@ -19,26 +26,112 @@ section {
   background-image: url(../img/me.jpg);
   background-size: 150%;
   background-position: center;
-  background-position: 50% 0%;
+  background-size: cover;
 }
 .information {
   background-image: url(../img/olga.jpg);
+  background-position: center;
   background-size: cover;
 }
 
 .description {
-  background-color: rgba(41, 41, 41, 0.534);
-  width: 100%;
-
-  position: relative;
-  transform: translateY(-100%);
-  bottom: -100%;
+  background: rgb(0, 12, 36);
+  background: linear-gradient(
+    238deg,
+    rgba(0, 12, 36, 0) 0%,
+    rgba(9, 121, 112, 0.020045518207282953) 39%,
+    rgba(0, 212, 255, 1) 100%
+  );
   p {
     padding-left: 3%;
     padding-right: 3%;
     font-size: 2rem;
-    color: rgb(255, 254, 254);
+    color: rgb(44, 44, 44);
   }
 }
+.descriptionInf {
+  background: rgb(0, 12, 36);
+  background: linear-gradient(
+    76deg,
+    rgba(0, 12, 36, 0) 0%,
+    rgba(9, 121, 112, 0.020045518207282953) 39%,
+    rgba(0, 212, 255, 1) 100%
+  );
 
+  p {
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 2rem;
+    color: rgb(44, 44, 44);
+  }
+}
+.cardsFis {
+  display: grid;
+  grid-template-columns: 10vw 30vw 50vw;
+}
+.cardFis {
+  height: 75rem;
+}
+
+.awards {
+  margin-left: 35%;
+  margin-top: 5%;
+  width: 15vw;
+  height: 7vh;
+  background: rgb(0, 177, 179);
+  background: linear-gradient(
+    202deg,
+    rgba(52, 76, 77, 0.541) 0%,
+    rgba(9, 121, 112, 1) 58%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: white;
+  cursor: pointer;
+  border: solid 1px rgb(255, 255, 255);
+  border-radius: 3rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+}
+.awardsInf {
+}
+.cards {
+  margin-bottom: 3%;
+}
+.cardsInf {
+  display: grid;
+  grid-template-columns: 10vw 50vw 30vw;
+}
+.cardInf {
+  height: 75rem;
+}
 @import "./styles/mobile";
+
+/****************************************************************
+
+<div class="container">
+        <div class="box physic">
+          <div class="description descriptionF">
+            <h1 class="temporary">физика</h1>
+            <p>
+              Веду занятия по физике 5 лет. Помогаю детям чувтсвовать себя
+              уверенно на занятиях, готовлю к экзаменам, подтягиваю как теорию
+              так и практику.
+            </p>
+          </div>
+        </div>
+        <div class="box physic describe"></div>
+
+        <div class="box information">
+          <div class="description descriptionI">
+            <h1 class="temporary">информатика</h1>
+            <p>
+              Занимаюсь репетиторством с 2016 года. Имею опыт подготовки к ОГЭ и
+              ЕГЭ по математике и информатике. Также готовлю к сдаче
+              промежуточных аттестаций.
+            </p>
+          </div>
+        </div>
+        <div class="box information describe"></div>
+      </div>
+
+*/

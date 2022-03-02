@@ -4,7 +4,13 @@ header {
   width: 80%;
   margin-left: 10%;
   height: 10vh;
-  background-image: linear-gradient(to bottom left, $two, $one);
+  background: rgb(0, 177, 179);
+  background: linear-gradient(
+    202deg,
+    rgba(0, 177, 179, 0.5410539215686274) 0%,
+    rgba(9, 121, 112, 1) 39%,
+    rgba(0, 212, 255, 1) 100%
+  );
   color: rgb(255, 249, 249);
   position: sticky;
   top: 0px;
@@ -12,6 +18,8 @@ header {
   h1 {
     font-size: 2.5rem;
   }
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 .home-page {
   display: block;
