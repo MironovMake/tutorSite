@@ -300,6 +300,25 @@ footer {
   }
 }
 
+@media only screen and (max-width: 800px) {
+  .welcome {
+    font-size: 1.5rem;
+  }
+  .temporary {
+    font-size: 3rem;
+  }
+  .description p {
+    font-size: 1.5rem;
+  }
+  .descriptionInf p {
+    font-size: 1.5rem;
+  }
+  .awards {
+    margin-left: 5%;
+    width: 40vw;
+  }
+}
+
 /****************************************************************
 
 <div class="container">
