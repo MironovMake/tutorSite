@@ -77,8 +77,8 @@ nav ul {
   width: 7rem;
   text-align: center;
   text-decoration: none;
-  background-image: -webkit-gradient(linear, right top, left bottom, from(#005180), to(#979c85));
-  background-image: linear-gradient(to bottom left, #005180, #979c85);
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#00b1b3), to(#00d4ff));
+  background-image: linear-gradient(to bottom left, #00b1b3, #00d4ff 100%);
   color: whites;
   border: 3px solid;
   border-color: white;
@@ -90,8 +90,8 @@ nav ul {
 }
 
 footer {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#005180), to(#979c85));
-  background-image: linear-gradient(to bottom right, #005180, #979c85);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#00b1b3), to(#00d4ff));
+  background-image: linear-gradient(to bottom right, #00b1b3, #00d4ff 100%);
   height: 10vh;
   text-align: center;
   font-size: 25px;

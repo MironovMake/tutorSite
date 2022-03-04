@@ -77,8 +77,8 @@ nav ul {
   width: 7rem;
   text-align: center;
   text-decoration: none;
-  background-image: -webkit-gradient(linear, right top, left bottom, from(#005180), to(#979c85));
-  background-image: linear-gradient(to bottom left, #005180, #979c85);
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#00b1b3), to(#00d4ff));
+  background-image: linear-gradient(to bottom left, #00b1b3, #00d4ff 100%);
   color: whites;
   border: 3px solid;
   border-color: white;
@@ -90,8 +90,8 @@ nav ul {
 }
 
 footer {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#005180), to(#979c85));
-  background-image: linear-gradient(to bottom right, #005180, #979c85);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#00b1b3), to(#00d4ff));
+  background-image: linear-gradient(to bottom right, #00b1b3, #00d4ff 100%);
   height: 10vh;
   text-align: center;
   font-size: 25px;
@@ -159,89 +159,21 @@ footer {
   }
 }
 
-.box {
-  margin-top: 5%;
-}
-
-.submit {
-  position: relative;
-  bottom: -5%;
-  width: 100%;
-  padding: 3rem;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  font-size: 3rem;
-}
-
-.field {
-  background-color: #ffffff;
-  width: 80%;
+.welcome {
   font-size: 2rem;
-}
-
-.message,
-.email-form {
-  padding-left: 15%;
-  margin-bottom: 5%;
-}
-
-.regularText {
+  padding: 3% 3% 3% 10%;
   text-align: center;
   font-size: 2rem;
-  margin-bottom: 5%;
-  padding-top: 5%;
+  color: #2c2c2c;
 }
 
-.olga {
-  border-radius: 20px;
+.temporary {
   text-align: center;
-  font-size: 3rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(transparent)), url("img/olgaRed.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.4), transparent), url("img/olgaRed.jpg");
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.olga:hover {
-  border-radius: 20px;
-  text-align: center;
-  font-size: 3rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(transparent)), url("img/olgaRedsmile.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.4), transparent), url("img/olgaRedsmile.jpg");
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.olgaProfi {
+  font-size: 60px;
   position: relative;
-  bottom: -5%;
-}
-
-.alex {
-  border-radius: 20px;
-  text-align: center;
-  font-size: 3rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(transparent)), url("img/mEfake.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.4), transparent), url("img/mEfake.jpg");
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.alex:hover {
-  border-radius: 20px;
-  text-align: center;
-  font-size: 3rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(transparent)), url("img/mEfakesmile.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.4), transparent), url("img/mEfakesmile.jpg");
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
+  color: #3b3b3b;
+  padding-top: 10%;
+  padding-bottom: 5%;
 }
 
 .container {
@@ -264,37 +196,87 @@ footer {
 }
 
 .box {
-  width: 20vw;
-  height: 50vh;
+  width: 50rem;
+  height: 65em;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.containerColum {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+.physic {
+  background-image: url(../img/me.jpg);
+  background-size: 150%;
+  background-position: center;
+  background-size: cover;
 }
 
-form {
-  width: 50%;
-  color: white;
-  border-radius: 20px;
-  font-size: 3rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(transparent)), url(img/pys.png);
-  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url(img/pys.png);
-  background-position: top;
-  background-repeat: no-repeat;
+.information {
+  background-image: url(../img/olga.jpg);
+  background-position: center;
   background-size: cover;
+}
+
+.description {
+  background: #000c24;
+  background: linear-gradient(238deg, rgba(0, 12, 36, 0) 0%, rgba(9, 121, 112, 0.0200455) 39%, #00d4ff 100%);
+}
+
+.description p {
+  padding-left: 3%;
+  padding-right: 3%;
+  font-size: 2rem;
+  color: #2c2c2c;
+}
+
+.descriptionInf {
+  background: #000c24;
+  background: linear-gradient(76deg, rgba(0, 12, 36, 0) 0%, rgba(9, 121, 112, 0.0200455) 39%, #00d4ff 100%);
+}
+
+.descriptionInf p {
+  padding-left: 3%;
+  padding-right: 3%;
+  font-size: 2rem;
+  color: #2c2c2c;
+}
+
+.cardsFis {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 10vw 30vw 50vw;
+      grid-template-columns: 10vw 30vw 50vw;
+}
+
+.cardFis {
+  height: 75rem;
+}
+
+.awards {
+  margin-left: 15%;
+  margin-top: 5%;
+  width: 15vw;
+  height: 7vh;
+  background: linear-gradient(202deg, #097970 39%, #00d4ff 100%);
+  color: white;
+  cursor: pointer;
+  border: solid 1px white;
+  border-radius: 3rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+}
+
+.cards {
+  margin-bottom: 3%;
+}
+
+.cardsInf {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 10vw 50vw 30vw;
+      grid-template-columns: 10vw 50vw 30vw;
+}
+
+.cardInf {
+  height: 75rem;
 }
 
 @media only screen and (max-width: 800px) {
@@ -317,9 +299,34 @@ form {
 }
 
 @media only screen and (max-width: 800px) {
-  .submit {
-    position: relative;
-    bottom: -10%;
+  .welcome {
+    font-size: 1.5rem;
+  }
+  .temporary {
+    font-size: 3rem;
+  }
+  .description p {
+    font-size: 1.5rem;
+  }
+  .descriptionInf p {
+    font-size: 1.5rem;
+  }
+  .awards {
+    margin-left: 5%;
+    font-size: 1.4rem;
+    width: 45vw;
+  }
+  .fab {
+    margin-top: 22px;
+  }
+  .information {
+    background-image: url(../img/olga.jpg);
+    background-position: center;
+    height: 80%;
+  }
+  .descriptionInf {
+    background: #58f6ff;
+    background: linear-gradient(155deg, #58f6ff 0%, white 100%);
   }
 }
 /*# sourceMappingURL=aboutUs.css.map */
