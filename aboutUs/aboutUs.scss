@@ -100,25 +100,22 @@
 .cardInf {
   height: 75rem;
 }
-li {
+.regular {
   font-size: 2rem;
   padding: 0.7rem;
   margin-left: 5rem;
   color: rgb(44, 44, 44);
 }
-ul {
-  padding-bottom: 1rem;
-}
 @import "../styles/mobile";
 @media only screen and (max-width: 800px) {
   .cardsInf {
-    grid-template-columns: 0vw 60vw 40vw;
+    grid-template-columns: 0 55vw 40vw;
   }
 
   .cardsFis {
-    grid-template-columns: 0vw 40vw 60vw;
+    grid-template-columns: 0vw 40vw 55vw;
   }
-  li {
+  .regular {
     font-size: 1.5rem;
     padding: 0.7rem;
     margin-left: 5rem;
