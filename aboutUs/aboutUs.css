@@ -281,6 +281,10 @@ footer {
   height: 75rem;
 }
 
+.regularUL {
+  padding-bottom: 2rem;
+}
+
 .regular {
   font-size: 2rem;
   padding: 0.7rem;
