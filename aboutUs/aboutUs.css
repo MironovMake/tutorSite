@@ -333,7 +333,6 @@ footer {
   .AleksLinks {
     width: 40vw;
     position: absolute;
-    left: 3vw;
     bottom: -30vh;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -357,7 +356,7 @@ footer {
         -ms-flex-direction: row;
             flex-direction: row;
     position: absolute;
-    bottom: -190vh;
+    bottom: -185vh;
   }
 }
 /*# sourceMappingURL=aboutUs.css.map */
