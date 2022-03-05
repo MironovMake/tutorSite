@@ -172,7 +172,7 @@ footer {
   font-size: 60px;
   position: relative;
   color: #3b3b3b;
-  padding-top: 10%;
+  padding-top: 5%;
   padding-bottom: 5%;
 }
 
@@ -262,6 +262,7 @@ footer {
   border-radius: 3rem;
   font-family: "Poppins", sans-serif;
   font-size: 2rem;
+  display: none;
 }
 
 .cards {
@@ -277,6 +278,17 @@ footer {
 
 .cardInf {
   height: 75rem;
+}
+
+li {
+  font-size: 2rem;
+  padding: 0.7rem;
+  margin-left: 5rem;
+  color: #2c2c2c;
+}
+
+ul {
+  padding-bottom: 1rem;
 }
 
 @media only screen and (max-width: 800px) {
@@ -299,6 +311,19 @@ footer {
 }
 
 @media only screen and (max-width: 800px) {
+  .cardsInf {
+    -ms-grid-columns: 0vw 60vw 40vw;
+        grid-template-columns: 0vw 60vw 40vw;
+  }
+  .cardsFis {
+    -ms-grid-columns: 0vw 40vw 60vw;
+        grid-template-columns: 0vw 40vw 60vw;
+  }
+  li {
+    font-size: 1.5rem;
+    padding: 0.7rem;
+    margin-left: 5rem;
+  }
   .welcome {
     font-size: 1.5rem;
   }
