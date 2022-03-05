@@ -1,130 +1,33 @@
 @import "./styles/genegalStuff";
 @import "./styles/nav";
 @import "./styles/container";
-
-section {
+.welcomeContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 .welcome {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   font-size: 2rem;
-  padding: 3% 3% 3% 10%;
-  text-align: center;
+  width: 60%;
   font-size: 2rem;
   color: rgb(44, 44, 44);
 }
-.temporary {
-  text-align: center;
-  font-size: 60px;
-  position: relative;
-  color: rgb(59, 59, 59);
-  padding-top: 10%;
-  padding-bottom: 5%;
-}
+.shedule {
+  padding-left: 20vw;
 
-@include flex(50rem, 65em);
-
-.physic {
-  background-image: url(../img/me.jpg);
-  background-size: 150%;
-  background-position: center;
-  background-size: cover;
-}
-.information {
-  background-image: url(../img/olga.jpg);
-  background-position: center;
-  background-size: cover;
-}
-
-.description {
-  background: rgb(0, 12, 36);
-  background: linear-gradient(
-    238deg,
-    rgba(0, 12, 36, 0) 0%,
-    rgba(9, 121, 112, 0.020045518207282953) 39%,
-    rgba(0, 212, 255, 1) 100%
-  );
-  p {
-    padding-left: 3%;
-    padding-right: 3%;
-    font-size: 2rem;
-    color: rgb(44, 44, 44);
-  }
-}
-.descriptionInf {
-  background: rgb(0, 12, 36);
-  background: linear-gradient(
-    76deg,
-    rgba(0, 12, 36, 0) 0%,
-    rgba(9, 121, 112, 0.020045518207282953) 39%,
-    rgba(0, 212, 255, 1) 100%
-  );
-
-  p {
-    padding-left: 3%;
-    padding-right: 3%;
-    font-size: 2rem;
-    color: rgb(44, 44, 44);
-  }
-}
-.cardsFis {
-  display: grid;
-  grid-template-columns: 10vw 30vw 50vw;
-}
-.cardFis {
-  height: 75rem;
-}
-
-.awards {
-  margin-left: 35%;
-  margin-top: 5%;
-  width: 15vw;
-  height: 7vh;
-  background: rgb(0, 177, 179);
-  background: linear-gradient(
-    202deg,
-    rgba(52, 76, 77, 0.541) 0%,
-    rgba(9, 121, 112, 1) 58%,
-    rgba(0, 212, 255, 1) 100%
-  );
-  color: white;
-  cursor: pointer;
-  border: solid 1px rgb(255, 255, 255);
-  border-radius: 3rem;
-  font-family: "Poppins", sans-serif;
   font-size: 2rem;
-}
-.awardsInf {
-}
-.cards {
-  margin-bottom: 3%;
-}
-.cardsInf {
-  display: grid;
-  grid-template-columns: 10vw 50vw 30vw;
-}
-.cardInf {
-  height: 75rem;
+  h1 {
+    padding: 1rem;
+  }
+  li {
+    padding: 0.5rem;
+  }
 }
 @import "./styles/mobile";
 @media only screen and (max-width: 800px) {
   .welcome {
     font-size: 1.5rem;
-  }
-  .temporary {
-    font-size: 3rem;
-  }
-  .description {
-    p {
-      font-size: 1.5rem;
-    }
-  }
-  .descriptionInf {
-    p {
-      font-size: 1.5rem;
-    }
-  }
-  .awards {
-    margin-left: 5%;
-    font-size: 1.4rem;
-    width: 45vw;
   }
 }
