@@ -334,6 +334,7 @@ footer {
     width: 40vw;
     position: absolute;
     bottom: -30vh;
+    left: 0vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -356,7 +357,7 @@ footer {
         -ms-flex-direction: row;
             flex-direction: row;
     position: absolute;
-    bottom: -185vh;
+    bottom: -175vh;
   }
 }
 /*# sourceMappingURL=aboutUs.css.map */
