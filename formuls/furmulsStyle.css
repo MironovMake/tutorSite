@@ -128,6 +128,10 @@ footer {
   display: block;
 }
 
+#logo {
+  padding-top: 2rem;
+}
+
 .dropdown:hover .dropbtn {
   background-color: rgba(41, 41, 41, 0.534);
 }
